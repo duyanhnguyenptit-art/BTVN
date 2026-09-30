@@ -13,6 +13,6 @@ public class Main {
             totalSalary += empSalary;
         }
 
-        System.out.printf("Tổng quỹ lương in ra: %,.0f đ\n", totalSalary);
+        System.out.printf("Tong quy luong in ra: %,.0f đ\n", totalSalary);
     }
 }
