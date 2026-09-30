@@ -13,7 +13,6 @@ public class Employee {
         return name;
     }
 
-    // Phương thức mặc định trả về baseSalary
     public double salary() {
         return baseSalary;
     }
