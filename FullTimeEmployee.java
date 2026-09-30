@@ -1,0 +1,14 @@
+public class FullTimeEmployee extends Employee {
+    private double allowance;
+
+    public FullTimeEmployee(String id, String name, double baseSalary, double allowance) {
+        super(id, name, baseSalary);
+        this.allowance = allowance;
+    }
+
+    // Ghi đè salary() = baseSalary + allowance
+    @Override
+    public double salary() {
+        return baseSalary + allowance;
+    }
+}
