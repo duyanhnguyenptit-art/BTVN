@@ -6,7 +6,6 @@ public class FullTimeEmployee extends Employee {
         this.allowance = allowance;
     }
 
-    // Ghi đè salary() = baseSalary + allowance
     @Override
     public double salary() {
         return baseSalary + allowance;
